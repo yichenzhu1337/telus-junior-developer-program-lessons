@@ -1,0 +1,29 @@
+
+
+[00:05:13]
+But brought it some of the most powerful features that had ever been invented. In that case, closure. And it was really kind of one of the first major movers in that space. I mean, arguably, you could say that the only other language at the time that was really maybe starting to become more consumer-oriented and had closure would have been Pearl.
+
+[00:05:33]
+So JavaScript's either the first or nearly the first language to move in that direction. And as things stand today, 24 years later, every single language has closure because it turns out that closure is just that important. And so with that foundation, then, it strikes me as troublesome that something that is so great and so pervasive is something that we still stumble over.
+
+[00:06:01]
+And we can't even give a definition of. We can't even really give precise examples of. In fact, I'd go so far as to say every one of you that is a JavaScript developer, if you've written JavaScript for more than three hours, you have interacted with closure in some way, shape, or form.
+
+[00:06:16]
+And in fact, most of you do it all the time, all day, every day without even realizing it, in various different paradigms. It's not only functional programming that uses closure, but closure is used in lots of different places. It's used for asynchronous AJAX. It's use for all sorts of different things.
+
+[00:06:33]
+And so I want us to take a moment to be more precise about it. Now, closure as an idea is actually predating computer science, it actually comes to us from lambda calculus. This idea of closure, it even predates the idea of a programming language in that sense. And so if I were to try to show you a bunch of symbols and teach you lambda calculus, I am completely not up to that task.
+
+[00:06:56]
+I have read the Wikipedia page for lambda calculus. I know it is a thing. I don't know anything about it. I don't understand it at all. And I have a CS background and I still don't get it. So it turns out that, at least from my perspective, the academic definition, the mathematical definition for closure, not useful.
+
+[00:07:15]
+Matter of fact, even if you go to Wikipedia and you try to ask Wikipedia what is closure, or if you try to go to a computer science textbook and ask it, what is closure? I mean, I was taught those things in school, but none of that ever stuck.
+
+[00:07:27]
+None of it ever clicked. So I'm gonna try to substitute a different definition, which instead of focusing on the academics, focuses on what we can observe in our programs that is different as a result of closure being a characteristic of the language. To understand this definition, you have to understand lexical scope.
+
+[00:07:47]
+That's why we've built ourselves in this direction. We're headed towards the module pattern, and a step along the way is we've gotta understand closure. Can't get there if you don't understand lexical scope.
+

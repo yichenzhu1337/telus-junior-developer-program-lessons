@@ -15,7 +15,7 @@ let suffix = 'dude'
 function ask(question, x, y, z) {
   setTimeout(function waitForFiveSeconds() {
     console.log(question + ` ${suffix}`)
-  }, 5000);
+  }, 5000)
 }
 
 ask('What de haacck is a closure???')

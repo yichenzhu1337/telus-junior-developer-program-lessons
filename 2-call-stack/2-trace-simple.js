@@ -12,9 +12,9 @@ function one() {
 
 function two() {
   console.log('I am two! - start')
-  
+
   three()
-  
+
   console.log('I am two! - end')
 }
 

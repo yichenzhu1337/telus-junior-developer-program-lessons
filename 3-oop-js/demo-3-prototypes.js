@@ -87,14 +87,14 @@
 
 const a = new Array(0, 1, 2, 3, 4)
 
-Array.prototype.printOddIndices = function() {
+Array.prototype.printOddIndices = function () {
   for (let i = 0; i < this.length; i++) {
-    if ((i % 2) == 1) {
+    if (i % 2 == 1) {
       console.log(this[i])
     }
   }
 }
 
 a.printOddIndices()
-// 1 
+// 1
 // 3

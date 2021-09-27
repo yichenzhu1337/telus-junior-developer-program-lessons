@@ -120,9 +120,9 @@ Object.defineProperty(obj3, '_id', {
 
 const obj = {
   prop: 42
-};
+}
 
-Object.freeze(obj);
+Object.freeze(obj)
 
 // obj.prop = 33;
 // // Throws an error in strict mode

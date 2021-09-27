@@ -12,8 +12,7 @@ Interview in 2016
 Story 2
 Black Friday
 
-## 
-
+##
 
 Resources
 
@@ -26,16 +25,12 @@ What is Scope
 Understanding Lexical Scope (vs dynamic)
 js (and all languages) vs bash
 
-2
-4. Function Scoping
-6. Block Scoping
-7. Choosing let, const, var
-11. Hoisting 
+2 4. Function Scoping 6. Block Scoping 7. Choosing let, const, var 11. Hoisting
 
 3. Scope and Function Expressions
-function expression
-function deflcation
-arrow functions
+   function expression
+   function deflcation
+   arrow functions
 
 4 Closures
 
@@ -46,12 +41,11 @@ arrow functions
 5. ES6 Modules & Nodejs
 6. ES6 Module Syntax
 
-5 
+5
 modules
 strict mode
 
 6 Practice Problems
-
 
 ## 7. Scope - Compile
 
@@ -84,13 +78,13 @@ strict mode
 2. Lexical Scope
 3. Dynamic Scope
 4. Function Scoping /
-5. IIFE Pattern / 
-6. Block Scoping / 
+5. IIFE Pattern /
+6. Block Scoping /
 7. Choosing let or var /
-8. Explicit let Block / 
+8. Explicit let Block /
 9. const /
 10. const Q&A
-11. Hoisting / 
+11. Hoisting /
 12. Hoisting Example
 13. let Doesnt Hoist /
 14. Hoisting Exercise

@@ -11,7 +11,7 @@
 // 1 - LET
 // Any time there are { }, and you use let to declare a variable, that variable is only local within that brace
 
-// 
+//
 
 // 0. function() {}
 //////////////////////////

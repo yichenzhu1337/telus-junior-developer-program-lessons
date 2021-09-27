@@ -7,14 +7,10 @@ class Animal {
     this.weight = weight
   }
 
-  getName() {
-    
-  }
+  getName() {}
 }
 
-Animal.prototype.getName = function() {
-
-}
+Animal.prototype.getName = function () {}
 
 class Cat extends Animal {
   constructor(height, weight) {
@@ -31,7 +27,6 @@ console.log(cat1)
 console.log(cat1.speak())
 
 class Dog extends Animal {
-
   constructor(height, weight) {
     super(height, weight)
   }

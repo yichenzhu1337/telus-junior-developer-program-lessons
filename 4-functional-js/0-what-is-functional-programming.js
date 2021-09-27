@@ -3,24 +3,24 @@
 /******************************************/
 // 1. Pure
 function greet(name) {
-  return `Hello, ${name}!`;
+  return `Hello, ${name}!`
 }
 
-greet("Alonzo"); // "Hello, Alonzo!"
+greet('Alonzo') // "Hello, Alonzo!"
 
-greet("Alan"); // "Hello, Alan!"
+greet('Alan') // "Hello, Alan!"
 
 // 2. Impure
-let name = "Alonzo";
+let name = 'Alonzo'
 
 function greet() {
-  console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!`)
 }
 
-greet(); // Hello, Alonzo!
+greet() // Hello, Alonzo!
 
-name = "Alan";
-greet(); // Hello, Alan! // this is what we call a side-effect
+name = 'Alan'
+greet() // Hello, Alan! // this is what we call a side-effect
 
 /******************************************/
 /******************************************/
@@ -33,7 +33,7 @@ function getRandomNumber() {
   return Math.random()
 }
 
-// 2. 
+// 2.
 function add(a, b) {
   return a + b
 }

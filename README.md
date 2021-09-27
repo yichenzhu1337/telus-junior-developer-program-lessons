@@ -2,9 +2,9 @@
 
 This is the source code to the lessons given by me XD.
 
-*[Playlist on Youtube of all the video lessons here.](https://www.youtube.com/playlist?list=PLgnecwsN27pDSThIKLhiISrbht5sedxiX)*
+_[Playlist on Youtube of all the video lessons here.](https://www.youtube.com/playlist?list=PLgnecwsN27pDSThIKLhiISrbht5sedxiX)_
 
-*[Link to all the lesson slides here.](https://drive.google.com/drive/folders/13lTOQFPpY84YRs_TOuQ08FbWtQlVpfhr?usp=sharing)*
+_[Link to all the lesson slides here.](https://drive.google.com/drive/folders/13lTOQFPpY84YRs_TOuQ08FbWtQlVpfhr?usp=sharing)_
 
 1. Scopes and closures
 2. The JavaScript call stack

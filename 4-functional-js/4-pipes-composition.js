@@ -1,6 +1,6 @@
 /**
  * What is composition?
- * 
+ *
  * What is piping?
  */
 
@@ -34,12 +34,21 @@ function composeThree(fn3, fn2, fn1) {
   }
 }
 
-console.log('composition composeThree', composeThree(minus2, triple, increment)(initNumber))
+console.log(
+  'composition composeThree',
+  composeThree(minus2, triple, increment)(initNumber)
+)
 
 // 1.3 the general compose function
-const compose = (...functions) => data => functions.reduceRight((value, func) => func(value), data)
+const compose =
+  (...functions) =>
+  (data) =>
+    functions.reduceRight((value, func) => func(value), data)
 
-console.log('composition general', compose(minus2, triple, increment)(initNumber))
+console.log(
+  'composition general',
+  compose(minus2, triple, increment)(initNumber)
+)
 
 console.log('----------')
 console.log('----------')

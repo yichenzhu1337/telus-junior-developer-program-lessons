@@ -48,24 +48,24 @@
 
 // 2.1
 function sum(numbers) {
-  let total = 0;
+  let total = 0
   for (i = 0; i < numbers.length; i++) {
-    total += numbers[i];
+    total += numbers[i]
   }
-  return total;
+  return total
 }
 
-sum([0, 1, 2, 3, 4]); // 10
+sum([0, 1, 2, 3, 4]) // 10
 
 // 2.2
 function sum(numbers) {
   if (numbers.length === 1) {
     // base case
-    return numbers[0];
+    return numbers[0]
   } else {
     // recursive case
-    return numbers[0] + sum(numbers.slice(1));
+    return numbers[0] + sum(numbers.slice(1))
   }
 }
 
-sum([0, 1, 2, 3, 4]); // 10
+sum([0, 1, 2, 3, 4]) // 10

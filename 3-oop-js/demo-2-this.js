@@ -4,7 +4,7 @@
  * Too much confusion, espeically for people from traditional OOP background
  * 1. call site
  *  - where and how the function is called is how we determine the this keyword
- * 
+ *
  * 2. bindings
  *  - default 4
  *  - implicit 3
@@ -73,24 +73,24 @@
 
 // 2.
 function foo(something) {
-  this.a = something;
+  this.a = something
 }
 
 var obj1 = {
   foo
-};
+}
 
-var obj2 = {};
+var obj2 = {}
 
-obj1.foo(2);
-console.log(obj1.a); // 2
+obj1.foo(2)
+console.log(obj1.a) // 2
 
-obj1.foo.call(obj2, 3);
-console.log(obj2.a); // 3
+obj1.foo.call(obj2, 3)
+console.log(obj2.a) // 3
 
-var bar = new obj1.foo(4);
-console.log(obj1.a); // 2
-console.log(bar.a); // 4
+var bar = new obj1.foo(4)
+console.log(obj1.a) // 2
+console.log(bar.a) // 4
 
 // // notice the object that the 'this' is refering to is "bar", not "obj1"
 

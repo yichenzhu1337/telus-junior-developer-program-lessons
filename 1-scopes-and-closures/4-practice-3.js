@@ -4,22 +4,21 @@ let myFriend = 'David'
 
 let europe = function IamANamedFunction(myFriend) {
   // myFriend = undefined
-  myFriend = 'Monique';
+  myFriend = 'Monique'
   const france = function () {
-    
     var paris = function () {
-      console.log(myFriend); // 1 Monique
-    };
+      console.log(myFriend) // 1 Monique
+    }
 
-    paris();
-  };
+    paris()
+  }
 
-  france();
+  france()
 
-  console.log(myFriend); // 2 Monique
+  console.log(myFriend) // 2 Monique
 }
 
-europe();
+europe()
 
 /**
  * Monique

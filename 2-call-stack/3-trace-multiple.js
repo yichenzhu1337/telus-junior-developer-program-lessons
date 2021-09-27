@@ -1,6 +1,6 @@
 function one() {
   twoA()
-  
+
   console.log('I am one!')
 
   twoB()
@@ -33,5 +33,3 @@ function threeC() {
 }
 
 one()
-
-

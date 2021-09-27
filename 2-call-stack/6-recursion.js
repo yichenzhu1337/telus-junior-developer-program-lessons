@@ -13,10 +13,9 @@ function printRecursivefromOneToN(N) {
     return
   }
 
-  // 
+  //
   printRecursivefromOneToN(N - 1)
 }
-
 
 printRecursivefromOneToN(10)
 

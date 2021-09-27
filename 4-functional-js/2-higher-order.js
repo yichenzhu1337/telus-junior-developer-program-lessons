@@ -52,23 +52,23 @@ console.log(sum1)
 
 // .reduce without loop
 function reduce(reducerFn, initialValue, array) {
-  if (length(array) === 0) return initialValue;
+  if (length(array) === 0) return initialValue
 
-  const newInitialValue = reducerFn(initialValue, head(array));
+  const newInitialValue = reducerFn(initialValue, head(array))
 
-  return reduce(reducerFn, newInitialValue, tail(array));
+  return reduce(reducerFn, newInitialValue, tail(array))
 }
 
 function length(array) {
-  return array.length;
+  return array.length
 }
 
 function head(array) {
-  return array[0];
+  return array[0]
 }
 
 function tail(array) {
-  return array.slice(1);
+  return array.slice(1)
 }
 
 let sum = reduce(

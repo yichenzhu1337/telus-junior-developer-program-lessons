@@ -1,6 +1,6 @@
 # Telus Junior Developer Program (JDP) Lessons
 
-This is the source code to the lessons given me XD.
+This is the source code to the lessons given by me XD.
 
 *[Playlist on Youtube of all the video lessons here.](https://www.youtube.com/playlist?list=PLgnecwsN27pDSThIKLhiISrbht5sedxiX)*
 

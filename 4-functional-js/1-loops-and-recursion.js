@@ -12,34 +12,35 @@
 /******************************************/
 /******************************************/
 
-// // 1. printing through a list - iterative method
-// function printNumbers(numbers) {
-//   for (let i = 0; i < numbers.length; i++) {
-//     console.log(numbers[i])
-//   }
-// }
+// 1. printing through a list - iterative method
+function printNumbers(numbers) {
+  for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i])
+  }
+}
 
-// printNumbers([10, 60, 100, 55, 46])
+printNumbers([10, 60, 100, 55, 46])
 
-// // 2. recursive method
-// function printNumbers2(numbers) {
-//   if (numbers.length === 0) {
-//     return []
-//   }
+// 2. recursive method
+function printNumbers2(numbers) {
+  if (numbers.length === 0) {
+    return
+  }
 
-//   // the first element of numbers
-//   let head = numbers[0]
+  // the first element of numbers
+  let head = numbers[0]
 
-//   console.log(head)
+  // do some action here
+  console.log(head)
 
-//   // the rest of the numbers in the array
-//   let tail = numbers.slice(1)
+  // the rest of the numbers in the array
+  let tail = numbers.slice(1)
 
-//   // recurse on the tail
-//   printNumbers2(tail)
-// }
+  // recurse on the tail
+  printNumbers2(tail)
+}
 
-// printNumbers2([10, 60, 100, 55, 46])
+printNumbers2([10, 60, 100, 55, 46])
 
 /******************************************/
 /******************************************/
@@ -59,9 +60,9 @@ sum([0, 1, 2, 3, 4]) // 10
 
 // 2.2
 function sum(numbers) {
-  if (numbers.length === 1) {
+  if (numbers.length === 0) {
     // base case
-    return numbers[0]
+    return 0
   } else {
     // recursive case
     return numbers[0] + sum(numbers.slice(1))
